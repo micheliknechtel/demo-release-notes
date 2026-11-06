@@ -1,0 +1,4 @@
+.DS_Store
+copilot-session-*.md
+verification_prompt.txt
+*.log

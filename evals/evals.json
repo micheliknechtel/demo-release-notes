@@ -1,0 +1,17 @@
+{
+  "skill_name": "release-notes",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Use a skill /release-notes para gerar as notas da versão 2.4.0 de pagamentos a partir de dados/mudancas.md.",
+      "expected_output": "Notas em português com PAY-101 em Novidades, PAY-102 em Correções, PAY-103 em Mudanças incompatíveis e migração de name para full_name. Preserva os 3 links, data e contexto fictício; exclui CAT-201.",
+      "files": ["dados/mudancas.md"]
+    },
+    {
+      "id": 2,
+      "prompt": "Use a skill /release-notes para gerar notas de versão a partir de dados/mudancas.md.",
+      "expected_output": "Pergunta qual produto e versão devem ser usados, pois há pagamentos 2.4.0 e catalogo 3.0.0. Não mistura as mudanças.",
+      "files": ["dados/mudancas.md"]
+    }
+  ]
+}

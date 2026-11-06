@@ -1,0 +1,1 @@
+Use a skill /release-notes para gerar as notas da versão 2.4.0 de pagamentos a partir de dados/mudancas.md.
